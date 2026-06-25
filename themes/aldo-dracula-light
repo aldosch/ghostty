@@ -1,0 +1,29 @@
+# Alucard — light variant of aldo-dracula
+# Dracula hues darkened/saturated for legibility on white background
+
+# Normal colors (0-7)
+palette = 0=#f8f8f2
+palette = 1=#c0392b
+palette = 2=#2d9648
+palette = 3=#b8860b
+palette = 4=#6b21c2
+palette = 5=#b5179e
+palette = 6=#0085a1
+palette = 7=#282a36
+
+# Bright colors (8-15)
+palette = 8=#6272a4
+palette = 9=#e05252
+palette = 10=#3aad5a
+palette = 11=#d4a017
+palette = 12=#8b35d6
+palette = 13=#cc2eb5
+palette = 14=#00a0c0
+palette = 15=#44475a
+
+background = #ffffff
+foreground = #282a36
+cursor-color = #282a36
+cursor-text = #ffffff
+selection-foreground = #282a36
+selection-background = #d0d0e8

@@ -1,0 +1,57 @@
+# https://ghostty.org/docs/config
+
+# Theme
+theme = dark:aldo-dracula,light:aldo-dracula-light
+
+# Font
+font-family = Geist Mono
+font-size = 20
+
+# Window
+window-padding-x = 18
+window-padding-y = 4
+window-width = 80
+window-height = 40
+macos-window-buttons = hidden
+# window-decoration = none
+macos-titlebar-proxy-icon = hidden
+title = " "
+unfocused-split-opacity = 1
+
+# Window behavior
+confirm-close-surface = true
+quit-after-last-window-closed = true
+quit-after-last-window-closed-delay = 10s
+
+# Split navigation
+# keybind = alt+up=goto_split:top
+# keybind = alt+down=goto_split:bottom
+# keybind = alt+left=goto_split:left
+# keybind = alt+right=goto_split:right
+
+# Text navigation - word level
+# keybind = opt+left=text:\x1bb
+# keybind = opt+right=text:\x1bf
+
+# Text navigation - line level
+keybind = cmd+left=text:\x01
+keybind = cmd+right=text:\x05
+
+# Text deletion - word level
+keybind = opt+backspace=text:\x17
+keybind = opt+delete=text:\x1bd
+
+# Text deletion - line level
+keybind = cmd+backspace=text:\x15
+keybind = cmd+delete=text:\x0b
+
+# Clipboard
+keybind = cmd+c=copy_to_clipboard
+keybind = cmd+v=paste_from_clipboard
+
+# Selection
+keybind = cmd+a=text:\x01
+
+# Special keys
+keybind = shift+enter=text:\x1b\r
+
