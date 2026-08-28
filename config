@@ -4,8 +4,8 @@
 theme = dark:aldo-dracula,light:aldo-dracula-light
 
 # Font
-font-family = Geist Mono
-font-size = 20
+font-family = Fira Code iScript
+font-size = 18
 
 # Window
 window-padding-x = 18
@@ -54,4 +54,3 @@ keybind = cmd+a=text:\x01
 
 # Special keys
 keybind = shift+enter=text:\x1b\r
-
