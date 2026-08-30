@@ -4,7 +4,7 @@
 theme = dark:aldo-dracula,light:aldo-dracula-light
 
 # Font
-font-family = Fira Code iScript
+font-family = Agave
 font-size = 18
 
 # Window
