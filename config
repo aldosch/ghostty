@@ -1,11 +1,12 @@
 # https://ghostty.org/docs/config
+# edit within nix/modules/ghostty.nix instead
 
 # Theme
 theme = dark:aldo-dracula,light:aldo-dracula-light
 
 # Font
 font-family = Agave
-font-size = 18
+font-size = 20
 
 # Window
 window-padding-x = 18
