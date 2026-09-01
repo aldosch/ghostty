@@ -6,7 +6,7 @@ theme = dark:aldo-dracula,light:aldo-dracula-light
 
 # Font
 font-family = Agave
-font-size = 20
+font-size = 16
 
 # Window
 window-padding-x = 18
