@@ -16,6 +16,9 @@ window-height = 40
 macos-window-buttons = hidden
 # window-decoration = none
 macos-titlebar-proxy-icon = hidden
+# tabs style routes macOS 26 through TitlebarTabsTahoeTerminalWindow, the
+# class the local tab-bar-hide patch (~/repos/ghostty, aldo/patches) modifies
+macos-titlebar-style = tabs
 title = " "
 unfocused-split-opacity = 1
 
@@ -29,6 +32,11 @@ quit-after-last-window-closed-delay = 10s
 # keybind = alt+down=goto_split:bottom
 # keybind = alt+left=goto_split:left
 # keybind = alt+right=goto_split:right
+
+# Tab cycling (tab bar is hidden by the local patch; the gt fish function
+# is the visual switcher)
+keybind = ctrl+tab=next_tab
+keybind = ctrl+shift+tab=previous_tab
 
 # Text navigation - word level
 # keybind = opt+left=text:\x1bb
