@@ -22,7 +22,8 @@ macos-titlebar-proxy-icon = hidden
 # tabs style routes macOS 26 through TitlebarTabsTahoeTerminalWindow, the
 # class the local tab-bar-hide patch (~/repos/ghostty, aldo/patches) modifies
 macos-titlebar-style = tabs
-title = " "
+# no static title: fish's fish_title hook sets the window title
+# (abbreviated cwd) via escape sequence; a static title would block it
 unfocused-split-opacity = 1
 
 # Window behavior
