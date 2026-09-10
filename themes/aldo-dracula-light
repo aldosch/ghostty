@@ -2,10 +2,13 @@
 # Dracula hues darkened/saturated for legibility on white background
 
 # Normal colors (0-7)
-palette = 0=#f8f8f2
+# Slot 0 is near-black ink (#282a36): "black" text must be readable on the
+# white background. Slot 7 mirrors the foreground for the same reason
+# (tools drawing "white" expect it to be visible ink here).
+palette = 0=#282a36
 palette = 1=#c0392b
 palette = 2=#2d9648
-palette = 3=#b8860b
+palette = 3=#8a6900
 palette = 4=#6b21c2
 palette = 5=#b5179e
 palette = 6=#0085a1
@@ -15,7 +18,7 @@ palette = 7=#282a36
 palette = 8=#6272a4
 palette = 9=#e05252
 palette = 10=#3aad5a
-palette = 11=#d4a017
+palette = 11=#b8860b
 palette = 12=#8b35d6
 palette = 13=#cc2eb5
 palette = 14=#00a0c0
