@@ -7,6 +7,9 @@ theme = dark:aldo-dracula,light:aldo-dracula-light
 # Font
 font-family = Geist Mono
 font-size = 16
+# zoom applies app-wide (windows/tabs/splits); needs the local patch
+# in ~/repos/ghostty (aldo/patches) — upstream ignores unknown keys
+zoom-shared = true
 
 # Window
 window-padding-x = 18
