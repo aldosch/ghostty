@@ -27,7 +27,7 @@ macos-titlebar-style = tabs
 # ~/repos/ghostty (aldo/patches) — upstream would override it
 title = " "
 unfocused-split-opacity = 1
-background-opacity = 0.5
+background-opacity = 0.7
 background-blur = macos-glass-regular
 
 # Window behavior
